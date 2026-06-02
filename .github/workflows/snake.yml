@@ -10,6 +10,7 @@ jobs:
       - uses: Platane/snk@v3
         with:
           github_user_token: ${{ secrets.GITHUB_TOKEN }}
+          github_user_name: minhvuong0909
           outputs: |
             dist/github-contribution-grid-snake-dark.svg@dark
       - uses: crazy-max/ghaction-github-pages@v3
